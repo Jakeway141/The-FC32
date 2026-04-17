@@ -416,7 +416,7 @@
         "uuid": "524bae94-30c3-4d47-8232-d1fa64637976"
       }
     ],
-    "used_designators": "Y2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,26 @@
     [
       "40473a26-0dec-4a83-80ba-cc1bd63742f6",
       "MCU"
+    ],
+    [
+      "8e839d31-6edd-474f-b49d-4ff4db484e5e",
+      "FLASH"
+    ],
+    [
+      "18d696ce-27b5-4570-a630-bec14df61666",
+      "IMU_1"
+    ],
+    [
+      "f1bb0506-fb0c-4de8-a278-0b7706c6f67d",
+      "IMU_2"
+    ],
+    [
+      "fb1f09ec-43a7-4a8e-87f5-db083965d137",
+      "Barometer"
+    ],
+    [
+      "5d0ead40-c547-4efd-a064-b7ac37ce65b7",
+      "Magnetometer"
     ]
   ],
   "text_variables": {},

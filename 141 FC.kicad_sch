@@ -6,6 +6,112 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 203.2 22.86)
+		(size 12.7 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "18d696ce-27b5-4570-a630-bec14df61666")
+		(property "Sheetname" "IMU_1"
+			(at 203.2 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMI088.kicad_sch"
+			(at 203.2 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MISO" output
+			(at 203.2 25.4 180)
+			(uuid "e3ae530e-4e89-4940-8372-b758b46b1616")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 203.2 30.48 180)
+			(uuid "687161b3-6a2c-4adc-b0d4-81669347ea4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_A" input
+			(at 203.2 35.56 180)
+			(uuid "ab1e30d1-2834-44cc-b2e2-7f03207278e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CS_G" input
+			(at 203.2 38.1 180)
+			(uuid "cee8dd84-bd9f-4241-84dc-9243e1d04229")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 203.2 27.94 180)
+			(uuid "9d7f1deb-314f-4c67-bf9a-ccb9bcf01fca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT" output
+			(at 203.2 41.91 180)
+			(uuid "a013e307-2d7d-4a3c-a50e-eabe175b653f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 139.7 85.09)
 		(size 27.94 26.67)
 		(exclude_from_sim no)
@@ -47,6 +153,380 @@
 			(project "141 FC"
 				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 62.23)
+		(size 12.7 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5d0ead40-c547-4efd-a064-b7ac37ce65b7")
+		(property "Sheetname" "Magnetometer"
+			(at 228.6 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IST-8310.kicad_sch"
+			(at 228.6 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 228.6 67.31 180)
+			(uuid "4f930123-7816-4943-a727-e709771cd96f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 228.6 64.77 180)
+			(uuid "0d8b3971-ced7-4b2d-b071-400dce24ee43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RST_MAG" input
+			(at 228.6 73.66 180)
+			(uuid "6eb3be94-9d90-4dcd-9e8e-5bd23d90949b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRDY" output
+			(at 228.6 71.12 180)
+			(uuid "78958679-b116-44c5-823c-6488eca59691")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 185.42 88.9)
+		(size 15.24 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8e839d31-6edd-474f-b49d-4ff4db484e5e")
+		(property "Sheetname" "FLASH"
+			(at 185.42 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MX25L51245G.kicad_sch"
+			(at 185.42 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OSPI_D2" bidirectional
+			(at 185.42 106.68 180)
+			(uuid "39b2f08c-375d-4c4f-9071-d3bc32c31c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_D3" bidirectional
+			(at 185.42 109.22 180)
+			(uuid "87b85cfd-f6fc-46db-88fb-0967887b620b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_D0" bidirectional
+			(at 185.42 101.6 180)
+			(uuid "7c86e0fd-c872-40c4-8e08-d7ca76212665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_D1" bidirectional
+			(at 185.42 104.14 180)
+			(uuid "156fc11f-bc6a-4c21-8222-fa2c5f64ca04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_CLK" input
+			(at 185.42 99.06 180)
+			(uuid "1c84bfc5-0939-4404-9607-1dcc9a877c41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_NCS" input
+			(at 185.42 96.52 180)
+			(uuid "868ff64c-95b5-4738-98b9-bde1bf5f8a77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLASH_RST" input
+			(at 185.42 91.44 180)
+			(uuid "79af2b1f-83b9-43f0-93a4-6aae548d04c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 22.86)
+		(size 12.7 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f1bb0506-fb0c-4de8-a278-0b7706c6f67d")
+		(property "Sheetname" "IMU_2"
+			(at 228.6 22.1484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ICM-40609-D.kicad_sch"
+			(at 228.6 45.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOSI" input
+			(at 228.6 27.94 180)
+			(uuid "aaf1dc3a-fd3f-4a34-b146-7f02241352a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" output
+			(at 228.6 25.4 180)
+			(uuid "33521b47-b17c-4eee-b41d-ebace7fcf296")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 228.6 30.48 180)
+			(uuid "5c2bf847-3b0b-4fb0-889a-188824239c28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nCS" input
+			(at 228.6 35.56 180)
+			(uuid "2bad8f36-e704-4e32-bfab-1bbf5e2ff86c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT1" output
+			(at 228.6 39.37 180)
+			(uuid "0310fe52-3615-46c9-9c79-ea6f0bb99734")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INT2" bidirectional
+			(at 228.6 41.91 180)
+			(uuid "f182cb1e-9a49-498e-b54c-96e4cc3124b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 62.23)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fb1f09ec-43a7-4a8e-87f5-db083965d137")
+		(property "Sheetname" "Barometer"
+			(at 203.2 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ICP-10125.kicad_sch"
+			(at 203.2 70.4346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 203.2 67.31 180)
+			(uuid "0a2a79fa-d434-4ae1-b133-90a4b442e68f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 203.2 64.77 180)
+			(uuid "0e045053-dac5-4b5c-8403-a702730c6c1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
+					(page "6")
 				)
 			)
 		)
