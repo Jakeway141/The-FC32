@@ -160,6 +160,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1283,18 +1450,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "1.8V"
-		(exclude_from_sim no)
-		(at 149.352 152.4 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "cfb8b9e3-39d8-4a71-b345-5669d615b36d")
-	)
 	(junction
 		(at 72.39 80.01)
 		(diameter 0)
@@ -1350,6 +1505,12 @@
 		(uuid "9ed4f927-9332-4f49-95c7-04be112f9ff4")
 	)
 	(junction
+		(at 149.86 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d999b3-818c-4d21-b4c9-ee89d3f8ce06")
+	)
+	(junction
 		(at 113.03 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1372,6 +1533,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f90a8d26-ef6c-4281-8eaa-8078e9a9d472")
+	)
+	(wire
+		(pts
+			(xy 149.86 148.59) (xy 149.86 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0149ba1c-2821-4d49-86d2-d58ac8dd5094")
 	)
 	(wire
 		(pts
@@ -1415,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 149.86 143.51)
+			(xy 149.86 127) (xy 149.86 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1432,6 +1603,26 @@
 			(type default)
 		)
 		(uuid "17ca3274-b501-432c-9950-8e552b5e07e4")
+	)
+	(wire
+		(pts
+			(xy 144.78 139.7) (xy 149.86 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af74eec-98f2-476d-b1dd-e36cce59710e")
+	)
+	(wire
+		(pts
+			(xy 163.83 139.7) (xy 170.18 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af3ddef-3550-4757-a153-1c22ebb68f25")
 	)
 	(wire
 		(pts
@@ -1515,6 +1706,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 139.7) (xy 156.21 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b42b3d-b403-4e45-b49e-8908403caf2d")
+	)
+	(wire
+		(pts
 			(xy 95.25 90.17) (xy 113.03 90.17)
 		)
 		(stroke
@@ -1542,6 +1743,16 @@
 			(type default)
 		)
 		(uuid "74112e7d-f5c7-4808-b699-25fd5c00cef7")
+	)
+	(wire
+		(pts
+			(xy 149.86 139.7) (xy 149.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b3de31-0c84-4f5d-b72c-20b55666cba0")
 	)
 	(wire
 		(pts
@@ -1715,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 80.01) (xy 72.39 80.01)
+			(xy 72.39 80.01) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1937,7 +2148,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 149.86 143.51 180)
+		(at 77.47 80.01 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1946,9 +2157,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1ab71fcc-1f60-4a36-ac7e-564789670b8b")
-		(property "Reference" "#PWR063"
-			(at 149.86 139.7 0)
+		(uuid "180e0ebb-59a6-4092-b30e-73800a55e385")
+		(property "Reference" "#PWR085"
+			(at 73.66 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1958,18 +2169,19 @@
 				)
 			)
 		)
-		(property "Value" "VDDBAR"
-			(at 149.86 148.59 0)
+		(property "Value" "VDD"
+			(at 81.28 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 143.51 0)
+			(at 77.47 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1980,7 +2192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 143.51 0)
+			(at 77.47 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1991,7 +2203,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 149.86 143.51 0)
+			(at 77.47 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2002,7 +2214,86 @@
 			)
 		)
 		(pin "1"
-			(uuid "86a09af0-cc83-4a2a-8c9f-54cb2673b741")
+			(uuid "d53f7ccb-0e1f-49b4-bf09-9b54105fdaf8")
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976/fb1f09ec-43a7-4a8e-87f5-db083965d137"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 144.78 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19786c6f-491d-4344-894c-44291cae83be")
+		(property "Reference" "#PWR063"
+			(at 148.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDDBAR"
+			(at 140.97 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 144.78 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f43426de-354d-42c7-aea1-2045d2fcdd18")
 		)
 		(instances
 			(project "141 FC"
@@ -2840,6 +3131,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 149.86 151.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8aeb26e1-b668-4b13-aff2-1a7f7e1d8023")
+		(property "Reference" "#PWR095"
+			(at 149.86 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD_1V8"
+			(at 149.86 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 149.86 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "850678d2-e1a1-4559-83ef-94ea433fe382")
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976/fb1f09ec-43a7-4a8e-87f5-db083965d137"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 121.92 96.52 0)
 		(mirror y)
@@ -3101,6 +3470,86 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 160.02 139.7 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa38863a-92c6-49d5-8347-3824cc669272")
+		(property "Reference" "C55"
+			(at 160.02 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 160.02 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 156.21 138.7348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b4cf72e-1f90-40b9-92e2-b65a7caf4cf9")
+		)
+		(pin "1"
+			(uuid "4163f830-c38b-4feb-8d53-ad3fa76f2e08")
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976/fb1f09ec-43a7-4a8e-87f5-db083965d137"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 160.02 127 270)
 		(mirror x)
 		(unit 1)
@@ -3259,6 +3708,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 149.86 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9c1874b-5baa-470e-b307-8c65a771d9b0")
+		(property "Reference" "FB4"
+			(at 147.32 144.7418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K/0.1A"
+			(at 147.32 147.2818 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 151.638 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "ILBB0603ER102V"
+			(at 149.86 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 149.86 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b016ff41-c4d2-41c9-9ff1-f21449e29093")
+		)
+		(pin "2"
+			(uuid "97977b10-36ea-4b1d-86d3-d9ee79d88a91")
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976/fb1f09ec-43a7-4a8e-87f5-db083965d137"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 113.03 96.52 0)
 		(mirror y)
@@ -3339,8 +3870,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 74.93 80.01 270)
+		(lib_id "power:GND")
+		(at 170.18 139.7 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3349,9 +3881,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c9f169dd-9864-481c-a82a-2d54ca911ca6")
-		(property "Reference" "#PWR060"
-			(at 71.12 80.01 0)
+		(uuid "e5669395-8294-4abe-ba6b-dfe55d130307")
+		(property "Reference" "#PWR086"
+			(at 176.53 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3361,19 +3893,19 @@
 				)
 			)
 		)
-		(property "Value" "VDDMCU"
-			(at 78.74 80.0099 90)
+		(property "Value" "GND"
+			(at 173.99 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 80.01 0)
+			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3384,7 +3916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 80.01 0)
+			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3394,8 +3926,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 74.93 80.01 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3406,12 +3938,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc2e80a3-7144-4910-8196-36e9e6ef5b2e")
+			(uuid "7d928490-6a50-4752-bc9e-11c052bda604")
 		)
 		(instances
 			(project "141 FC"
 				(path "/524bae94-30c3-4d47-8232-d1fa64637976/fb1f09ec-43a7-4a8e-87f5-db083965d137"
-					(reference "#PWR060")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)

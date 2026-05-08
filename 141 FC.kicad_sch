@@ -244,7 +244,53 @@
 		)
 	)
 	(sheet
-		(at 185.42 88.9)
+		(at 116.84 54.61)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7c2f59c2-3e70-4fc5-88d8-edd9d5172697")
+		(property "Sheetname" "BLE"
+			(at 116.84 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32C3.kicad_sch"
+			(at 116.84 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 85.09)
 		(size 15.24 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -260,7 +306,7 @@
 		)
 		(uuid "8e839d31-6edd-474f-b49d-4ff4db484e5e")
 		(property "Sheetname" "FLASH"
-			(at 185.42 88.1884 0)
+			(at 203.2 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -271,7 +317,7 @@
 			)
 		)
 		(property "Sheetfile" "MX25L51245G.kicad_sch"
-			(at 185.42 112.3446 0)
+			(at 203.2 108.5346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -282,7 +328,7 @@
 			)
 		)
 		(pin "OSPI_D2" bidirectional
-			(at 185.42 106.68 180)
+			(at 203.2 102.87 180)
 			(uuid "39b2f08c-375d-4c4f-9071-d3bc32c31c28")
 			(effects
 				(font
@@ -292,7 +338,7 @@
 			)
 		)
 		(pin "OSPI_D3" bidirectional
-			(at 185.42 109.22 180)
+			(at 203.2 105.41 180)
 			(uuid "87b85cfd-f6fc-46db-88fb-0967887b620b")
 			(effects
 				(font
@@ -302,7 +348,7 @@
 			)
 		)
 		(pin "OSPI_D0" bidirectional
-			(at 185.42 101.6 180)
+			(at 203.2 97.79 180)
 			(uuid "7c86e0fd-c872-40c4-8e08-d7ca76212665")
 			(effects
 				(font
@@ -312,7 +358,7 @@
 			)
 		)
 		(pin "OSPI_D1" bidirectional
-			(at 185.42 104.14 180)
+			(at 203.2 100.33 180)
 			(uuid "156fc11f-bc6a-4c21-8222-fa2c5f64ca04")
 			(effects
 				(font
@@ -322,7 +368,7 @@
 			)
 		)
 		(pin "OSPI_CLK" input
-			(at 185.42 99.06 180)
+			(at 203.2 95.25 180)
 			(uuid "1c84bfc5-0939-4404-9607-1dcc9a877c41")
 			(effects
 				(font
@@ -332,7 +378,7 @@
 			)
 		)
 		(pin "OSPI_NCS" input
-			(at 185.42 96.52 180)
+			(at 203.2 92.71 180)
 			(uuid "868ff64c-95b5-4738-98b9-bde1bf5f8a77")
 			(effects
 				(font
@@ -342,7 +388,7 @@
 			)
 		)
 		(pin "FLASH_RST" input
-			(at 185.42 91.44 180)
+			(at 203.2 87.63 180)
 			(uuid "79af2b1f-83b9-43f0-93a4-6aae548d04c3")
 			(effects
 				(font
@@ -355,6 +401,144 @@
 			(project "141 FC"
 				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 30.48)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b7b531b8-a00e-49d2-8777-1c68d92df122")
+		(property "Sheetname" "Power_Distro"
+			(at 88.9 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 88.9 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 30.48)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d1de0f57-1447-4879-8183-c464cc28aaee")
+		(property "Sheetname" "SD_Card"
+			(at 116.84 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD_Card.kicad_sch"
+			(at 116.84 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 54.61)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eee393c1-7387-4431-836b-128af0e63a44")
+		(property "Sheetname" "CAN Tranciever"
+			(at 88.9 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TJA1051.kicad_sch"
+			(at 88.9 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "141 FC"
+				(path "/524bae94-30c3-4d47-8232-d1fa64637976"
+					(page "10")
 				)
 			)
 		)

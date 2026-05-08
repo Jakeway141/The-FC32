@@ -447,6 +447,22 @@
     [
       "5d0ead40-c547-4efd-a064-b7ac37ce65b7",
       "Magnetometer"
+    ],
+    [
+      "b7b531b8-a00e-49d2-8777-1c68d92df122",
+      "Power_Distro"
+    ],
+    [
+      "d1de0f57-1447-4879-8183-c464cc28aaee",
+      "SD_Card"
+    ],
+    [
+      "eee393c1-7387-4431-836b-128af0e63a44",
+      "CAN Tranciever"
+    ],
+    [
+      "7c2f59c2-3e70-4fc5-88d8-edd9d5172697",
+      "BLE"
     ]
   ],
   "text_variables": {},
