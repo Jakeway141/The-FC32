@@ -2251,7 +2251,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 121.92 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3111,7 +3111,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 102.87 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3349,7 +3349,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 113.03 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1450,6 +1450,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 49.53 63.5)
+		(end 125.73 133.35)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8a22245c-b1e3-4fcb-b8a2-70739141340f")
+	)
+	(text "Level Shifting"
+		(exclude_from_sim no)
+		(at 55.88 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1184b5f0-57f6-455c-ac54-92fc2d3ac15d")
+	)
 	(junction
 		(at 72.39 80.01)
 		(diameter 0)
@@ -1478,7 +1500,7 @@
 		(at 121.92 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5efdefad-0932-42bf-91fe-bb7ec726b402")
+		(uuid "5f4f260a-fbbc-4309-95a3-705167dd8462")
 	)
 	(junction
 		(at 113.03 102.87)
@@ -1696,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 107.95) (xy 128.27 107.95)
+			(xy 121.92 107.95) (xy 125.73 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2104,8 +2126,8 @@
 		)
 		(uuid "f768d923-2724-4f18-a46f-b9c4880ab13b")
 	)
-	(label "SDA"
-		(at 128.27 107.95 0)
+	(label "SDA_BAR"
+		(at 125.73 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2114,7 +2136,7 @@
 		)
 		(uuid "2ef976ec-4b69-478a-b735-daefccbecd42")
 	)
-	(label "SDA"
+	(label "SDA_BAR"
 		(at 147.32 123.19 270)
 		(effects
 			(font
@@ -2992,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 76.2 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,7 +3252,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 118.11 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3649,7 +3671,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 67.31 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3811,7 +3833,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 109.22 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)

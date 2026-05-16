@@ -3013,7 +3013,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 129.54 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3690,7 +3690,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 119.38 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
