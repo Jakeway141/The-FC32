@@ -3637,14 +3637,6 @@
 		(uuid "0fca812f-510b-4fea-af0f-78a5c315f906")
 	)
 	(no_connect
-		(at 161.29 102.87)
-		(uuid "317d1062-ce31-4075-93a9-b44f7ec47192")
-	)
-	(no_connect
-		(at 161.29 110.49)
-		(uuid "31ce5dd1-1424-4852-acda-bb6bf55fea28")
-	)
-	(no_connect
 		(at 130.81 87.63)
 		(uuid "4ace57ff-508f-472c-80e1-ec98c38b8524")
 	)
@@ -3657,20 +3649,12 @@
 		(uuid "89a8f9f0-cbe9-480b-8304-25a271495df1")
 	)
 	(no_connect
-		(at 161.29 105.41)
-		(uuid "932c4e3c-7ac4-4925-87e0-46aec09fa605")
-	)
-	(no_connect
 		(at 161.29 97.79)
 		(uuid "9f786192-84e9-4e3d-887a-4291fd58c323")
 	)
 	(no_connect
 		(at 161.29 115.57)
 		(uuid "ac956f55-5f18-4240-a3cc-4d71f1261c3e")
-	)
-	(no_connect
-		(at 161.29 107.95)
-		(uuid "ae1cad8a-ab3c-47f5-9fb2-caf66762e1ed")
 	)
 	(no_connect
 		(at 130.81 95.25)
@@ -3908,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 105.41) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f1c832-78a6-4aba-8df8-70872b55f54e")
+	)
+	(wire
+		(pts
 			(xy 265.43 146.05) (xy 265.43 149.86)
 		)
 		(stroke
@@ -3995,6 +3989,16 @@
 			(type default)
 		)
 		(uuid "3bda7a61-e2c8-482f-ad77-72820c70ca2a")
+	)
+	(wire
+		(pts
+			(xy 161.29 107.95) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e5d0902-7fbf-40c2-8191-aff611f57c60")
 	)
 	(wire
 		(pts
@@ -4368,6 +4372,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 110.49) (xy 176.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08c9f6d-860c-408a-9fa8-c9e746dbd0e7")
+	)
+	(wire
+		(pts
 			(xy 26.67 33.02) (xy 30.48 33.02)
 		)
 		(stroke
@@ -4485,6 +4499,16 @@
 			(type default)
 		)
 		(uuid "c33e9064-e18e-4310-a41f-5f01c2252a36")
+	)
+	(wire
+		(pts
+			(xy 161.29 102.87) (xy 176.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7416651-4214-4786-852e-55aaafda37df")
 	)
 	(wire
 		(pts
@@ -4997,6 +5021,17 @@
 		)
 		(uuid "26406ee1-fc1a-4a22-9fd5-12c010c015b0")
 	)
+	(hierarchical_label "NEO PIXEL 4"
+		(shape output)
+		(at 176.53 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "329afe33-769a-49c4-bc2d-d858834873e2")
+	)
 	(hierarchical_label "BLE_RX"
 		(shape input)
 		(at 115.57 102.87 180)
@@ -5019,6 +5054,17 @@
 		)
 		(uuid "8cec42c2-88bf-46a5-b408-c35b86576f21")
 	)
+	(hierarchical_label "NEO PIXEL 3"
+		(shape output)
+		(at 176.53 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad6149ff-36e4-4d96-94ef-17d768f0c8c2")
+	)
 	(hierarchical_label "BLE_TX"
 		(shape output)
 		(at 115.57 105.41 180)
@@ -5040,6 +5086,28 @@
 			(justify right)
 		)
 		(uuid "c3659bb0-bc30-406d-a00a-21dfe93c59e5")
+	)
+	(hierarchical_label "NEO PIXEL 2"
+		(shape output)
+		(at 176.53 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c909a6f9-6cf4-483e-b7b7-0d7771e860b0")
+	)
+	(hierarchical_label "NEO PIXEL 1"
+		(shape output)
+		(at 176.53 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfa8b8e6-08ed-4d0b-8b91-77191ff2f585")
 	)
 	(hierarchical_label "BLE_CTS"
 		(shape input)
