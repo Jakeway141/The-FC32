@@ -327,148 +327,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:NetTie_2"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "NT"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_2"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Net tie, 2 pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NetTie_2_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_2_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1425,12 +1283,6 @@
 		(uuid "bbc50d51-07e4-4b4f-88f9-5894d247548d")
 	)
 	(junction
-		(at 120.65 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c24ebcb4-b009-474a-b749-dd91975bdab7")
-	)
-	(junction
 		(at 172.72 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1602,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 148.59) (xy 125.73 148.59)
+			(xy 101.6 148.59) (xy 125.73 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1702,16 +1554,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 144.78) (xy 120.65 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9020a45d-2143-445d-9525-73fc2f00ffa8")
-	)
-	(wire
-		(pts
 			(xy 134.62 111.76) (xy 132.08 111.76)
 		)
 		(stroke
@@ -1769,16 +1611,6 @@
 			(type default)
 		)
 		(uuid "a70ab050-3680-4d95-8418-9b7a4449521b")
-	)
-	(wire
-		(pts
-			(xy 113.03 148.59) (xy 120.65 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7327931-d10f-4607-95e2-9671f724ac2d")
 	)
 	(wire
 		(pts
@@ -1909,16 +1741,6 @@
 			(type default)
 		)
 		(uuid "e0923614-6a1e-4c67-ae5e-f3428be19b61")
-	)
-	(wire
-		(pts
-			(xy 101.6 148.59) (xy 107.95 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea97c9fd-4a48-4f76-a58e-991ba52933e5")
 	)
 	(wire
 		(pts
@@ -2108,7 +1930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 160.9852 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2188,7 +2010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 139.3952 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2661,7 +2483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 173.6852 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2704,86 +2526,6 @@
 			(project "141 FC"
 				(path "/524bae94-30c3-4d47-8232-d1fa64637976/18d696ce-27b5-4570-a630-bec14df61666"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 110.49 148.59 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58b1d3de-89ab-4189-987f-f4d637a8cf16")
-		(property "Reference" "NT3"
-			(at 110.49 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Tie_IMU_1_Rail"
-			(at 110.49 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 110.49 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 110.49 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cf07cc62-3378-425c-bc75-e3563a631dfe")
-		)
-		(pin "1"
-			(uuid "2b6afb46-a7a3-457d-b03e-90db59c0fd73")
-		)
-		(instances
-			(project "141 FC"
-				(path "/524bae94-30c3-4d47-8232-d1fa64637976/18d696ce-27b5-4570-a630-bec14df61666"
-					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -3102,7 +2844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.222 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -3181,7 +2923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.968 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -3341,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.6952 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -3384,84 +3126,6 @@
 			(project "141 FC"
 				(path "/524bae94-30c3-4d47-8232-d1fa64637976/18d696ce-27b5-4570-a630-bec14df61666"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 120.65 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d04b5cd3-215c-4d49-84a2-d4e6676d2784")
-		(property "Reference" "#FLG07"
-			(at 120.65 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 120.65 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 120.65 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e09f4681-4dba-4698-887c-6a15618c6a37")
-		)
-		(instances
-			(project "141 FC"
-				(path "/524bae94-30c3-4d47-8232-d1fa64637976/18d696ce-27b5-4570-a630-bec14df61666"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
