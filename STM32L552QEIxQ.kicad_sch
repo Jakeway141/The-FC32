@@ -6516,7 +6516,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 66.04 38.1)
+			(xy 66.04 38.1) (xy 66.04 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8413,16 +8413,6 @@
 			(type default)
 		)
 		(uuid "c6b6a608-c832-4f6f-9da0-e99e6fbc6dfb")
-	)
-	(wire
-		(pts
-			(xy 66.04 52.07) (xy 66.04 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8458dbc-f5fe-4d54-a91d-f2c105481897")
 	)
 	(wire
 		(pts
@@ -14792,86 +14782,6 @@
 			(project "141 FC"
 				(path "/524bae94-30c3-4d47-8232-d1fa64637976/40473a26-0dec-4a83-80ba-cc1bd63742f6"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 66.04 45.72 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a65cbe0d-f521-4709-ab22-f617f859cadc")
-		(property "Reference" "NT1"
-			(at 71.12 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Tie_MCU_Rail"
-			(at 68.58 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 66.04 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 66.04 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6a507ba1-e5e9-4d17-a5a5-79bacb31b9e4")
-		)
-		(pin "1"
-			(uuid "34d2a9c1-f763-4ab0-86b1-500c1a50588a")
-		)
-		(instances
-			(project "141 FC"
-				(path "/524bae94-30c3-4d47-8232-d1fa64637976/40473a26-0dec-4a83-80ba-cc1bd63742f6"
-					(reference "NT1")
 					(unit 1)
 				)
 			)
