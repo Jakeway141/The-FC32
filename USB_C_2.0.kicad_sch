@@ -2291,6 +2291,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 81.28) (xy 171.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cd3458-46f9-444d-b9e9-45ca6fb4955e")
+	)
+	(wire
+		(pts
 			(xy 199.39 91.44) (xy 199.39 93.98)
 		)
 		(stroke
@@ -2531,16 +2541,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 90.17) (xy 171.45 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890f8111-53de-4b14-88b1-1c404c3a24fc")
-	)
-	(wire
-		(pts
 			(xy 129.54 59.69) (xy 129.54 63.5)
 		)
 		(stroke
@@ -2749,16 +2749,6 @@
 		)
 		(uuid "f80ee411-3d32-4acd-b419-fddb323bc42b")
 	)
-	(wire
-		(pts
-			(xy 171.45 81.28) (xy 171.45 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa4c3fc4-252c-45cf-a2e9-528cb1d31a0e")
-	)
 	(label "D+_IN"
 		(at 163.83 97.79 180)
 		(effects
@@ -2810,7 +2800,7 @@
 		)
 		(uuid "2091bc95-9aeb-4fe0-88f4-3fe55ffc40b8")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_DN"
 		(shape tri_state)
 		(at 181.61 100.33 0)
 		(effects
@@ -2864,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.228 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -3022,7 +3012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 64.262 90)
 			(hide yes)
 			(show_name no)
@@ -3102,7 +3092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127.762 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -3263,7 +3253,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.59 57.658 90)
 			(hide yes)
 			(show_name no)
@@ -3596,7 +3586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 114.3 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3691,86 +3681,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 86.36 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a2aa329-25ef-4fb6-a72e-608c35de7576")
-		(property "Reference" "R83"
-			(at 165.1 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 167.64 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 173.228 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "408346db-fb71-41a3-915d-23b683c39a8b")
-		)
-		(pin "1"
-			(uuid "a92e7fb5-1242-40ee-bcac-6b2041e83b07")
-		)
-		(instances
-			(project "141 FC"
-				(path "/524bae94-30c3-4d47-8232-d1fa64637976/c59ddb1d-de9f-49f1-af3f-7363d2d70df6"
-					(reference "R83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 139.7 107.95 0)
 		(mirror x)
 		(unit 1)
@@ -3801,7 +3711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.922 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -4069,7 +3979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 190.5 79.502 90)
 			(hide yes)
 			(show_name no)
@@ -4228,7 +4138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 197.612 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -4478,7 +4388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.5052 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4558,7 +4468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 123.952 90)
 			(hide yes)
 			(show_name no)

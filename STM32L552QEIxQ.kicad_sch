@@ -9773,7 +9773,7 @@
 		)
 		(uuid "e8cf0b42-1339-456e-9d23-ebb53f0978c9")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_DN"
 		(shape tri_state)
 		(at 119.38 30.48 90)
 		(effects

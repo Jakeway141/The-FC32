@@ -1599,16 +1599,6 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DM" tri_state
-			(at 139.7 82.55 0)
-			(uuid "e0c1e527-5b37-459c-b055-7238441a2770")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "IMU_1_MOSI" output
 			(at 104.14 25.4 180)
 			(uuid "fb9ac986-19a7-4054-977d-b9112f09ed03")
@@ -2102,6 +2092,16 @@
 		(pin "I2S_SD" output
 			(at 139.7 185.42 0)
 			(uuid "0a623a5f-a717-45f7-bab7-13e9e357c334")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DN" tri_state
+			(at 139.7 82.55 0)
+			(uuid "e84282a0-937c-45c0-aae9-950ef33e1d06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,16 +2903,6 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_DM" tri_state
-			(at 148.59 82.55 180)
-			(uuid "d3835c8a-35aa-4cc3-9954-3cbd7ed0abfa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VBUS_SENSE" output
 			(at 148.59 87.63 180)
 			(uuid "0077b14f-116b-4f26-bc62-77293cfdd944")
@@ -2926,6 +2916,16 @@
 		(pin "USB_DP" tri_state
 			(at 148.59 85.09 180)
 			(uuid "4db17343-f1bb-4a3b-9652-69938cb27f04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DN" tri_state
+			(at 148.59 82.55 180)
+			(uuid "862e3d14-07f5-4e64-9000-ae5e33f3a419")
 			(effects
 				(font
 					(size 1.27 1.27)
